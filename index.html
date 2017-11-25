@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
   <title>My Google Homepage</title>
   <link rel="stylesheet" href="style.css">
@@ -10,9 +11,14 @@
 
   <div class="main-image">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92" alt="Google">
+  </div>
 
-    <p><input type="text" name="search"></p>
-    <p><input type="submit" value="Google Search"><input type="submit" value="I'm Feeling Lucky"></p>
+  <div class="main-input">
+    <form action="processingscript.php" method="get">
+      <p><input type="text" name="search" id="field"></p>
+      <button type="submit" id="search">Google Search</button>
+      <button type="button" id="lucky">I'm Feeling Lucky</button>
+    </form>
   </div>
 
 

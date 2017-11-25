@@ -16,6 +16,33 @@ input {
   margin-right: auto;
 }
 
+.main-image {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.main-input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+/*
+#search {
+  float: left;
+}
+
+#lucky {
+  float: right;
+}
+*/
+
+#field {
+  width: 100%;
+}
+
 /*
 .outer {
   display: table;
