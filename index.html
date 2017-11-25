@@ -9,17 +9,28 @@
 
 <body>
 
-  <div class="main-image">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92" alt="Google">
+  <div class="main-content">
+    <div class="main-image">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92" alt="Google">
+    </div>
+
+    <div class="main-input">
+      <form action="processingscript.php" method="get">
+        <p><input type="text" name="search" id="field"></p>
+        <button type="submit" id="search">Google Search</button>
+        <button type="button" id="lucky">I'm Feeling Lucky</button>
+      </form>
+    </div>
   </div>
 
-  <div class="main-input">
-    <form action="processingscript.php" method="get">
-      <p><input type="text" name="search" id="field"></p>
-      <button type="submit" id="search">Google Search</button>
-      <button type="button" id="lucky">I'm Feeling Lucky</button>
-    </form>
+  <div class="navbar">
+    <a class="align-left" href="https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a>
+    <a class="align-left" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+    <a class="align-right" href="https://www.google.com/intl/en/options/">Menu</a>
+    <a class="align-right" href="https://www.google.com/imghp?hl=en&tab=wi">Images</a>
+    <a class="align-right" href="https://inbox.google.com/">Gmail</a>
   </div>
+
 
 
 </body>

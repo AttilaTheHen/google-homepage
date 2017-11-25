@@ -1,24 +1,30 @@
 
 body {
-  padding: 200px 100px 400px 100px;
+  margin-top: 30px;
+  padding-top: 200px;
+  padding-bottom: 300px;
 }
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 input {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.main-content {
+  padding-left: 400px;
+  padding-right: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*
 .main-image {
   padding-left: 350px;
   padding-right: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
 .main-input {
@@ -27,6 +33,27 @@ input {
   text-align: center;
   padding-left: 350px;
   padding-right: 350px;
+}
+*/
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar a {
+  padding: 30px;
+  text-decoration: none;
+  top: 0;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
 }
 
 /*
