@@ -1,6 +1,7 @@
 
 body {
   margin-top: 30px;
+  margin-bottom: 30px;
   padding-top: 200px;
   padding-bottom: 300px;
 }
@@ -31,7 +32,14 @@ input {
   width: 100%
 }
 
-.navbar a {
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a,
+.footer a {
   text-decoration: none;
   font-family: arial;
   font-size: 13px;
@@ -47,12 +55,20 @@ input {
   padding: 20px 10px;
 }
 
-.align-right #Bell {
+#Bell {
   padding-right: 20px;
 }
 
 #Store {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px;
+}
+
+#Settings {
+  padding-right: 30px;
+}
+
+#Business {
+  padding: 20px 10px;
 }
 
 #field {
